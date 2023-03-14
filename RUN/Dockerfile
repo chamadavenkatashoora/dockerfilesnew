@@ -1,2 +1,2 @@
 FROM almalinux
-RUN yum install ngnix -yum
+RUN yum install ngnix -y
