@@ -1,4 +1,4 @@
 FROM almalinux
 ENV AUTHOR="Gopi"
-    DURATION="25 Hrs"
+    DURATION="25Hrs"
     COURSE="Docker"
