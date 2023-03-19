@@ -35,6 +35,8 @@ services:
     container_name: cart
     depends_on:
     - mongodb
-  
+  mysql:
+    image: mysql:v1
+    container_name: mysql  
 
 
