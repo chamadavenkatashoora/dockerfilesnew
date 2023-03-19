@@ -30,6 +30,11 @@ services:
     depends_on:
     - mongodb
     - redis
+  cart:
+    image: cart:v1
+    continer_name: cart
+    depends_on:
+    - mongodb
   
 
 
