@@ -23,3 +23,9 @@ services:
     container_name: user
     depends_on:
     - mongodb
+
+  cart:
+    image: cart:v1
+    container_name: cart
+    depends_on:
+    - catalogue
